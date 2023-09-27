@@ -10,7 +10,7 @@ alpha = [0]*26
 odd = 0
 center = 'A'
 
-for i in range(len(name)):
+for i in range(len(name)-1):
     alpha[ord(name[i])-ord('A')] += 1
 
 for i in range(26):
